@@ -15,3 +15,5 @@ ORDER BY num DESC
 LIMIT 1;
 
 # cari count per id buat request dan accepter (berarti di group by id)
+# UNION ALL -> duplicate juga ikut masuk (kalo UNION aja kalo ada duplicate bakal diapus)
+# COUNT() returns the number of rows in a column whereas SUM() returns the sum for the column
